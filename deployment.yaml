@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: DockerKubernetesDeployment
+  name: docker-kubernetes-deployment
 spec:
   selector:
     matchLabels:
-      app: DockerKubernetesDeployment
+      app: docker-kubernetes-deployment
   template:
     metadata:
       labels:
-        app: DockerKubernetesDeployment
+        app: docker-kubernetes-deployment
     spec:
       containers:
-      - name: DockerKubernetesDeployment
-        image: tarunkumar04/demoservice:latest
+      - name: docker-kubernetes-deployment
+        image: tarunkumar04/docker-kubernetes-app
         ports:
         - containerPort: 8100

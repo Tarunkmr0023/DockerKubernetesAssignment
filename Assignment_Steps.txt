@@ -1,0 +1,13 @@
+1. Installed docker and minikube in the system.
+2. Created a spring boot application with a /home route.
+3. Created jar file using mvn install command.
+4. Created docker file
+5. Created docker hub account and login in wsl docker using docker hub credentials.
+6. Build an image in wsl docker which is connected to spring boot application jar.
+7. Pushed the image to docker repo.
+8. Started minikube
+9. Pulled the image in minikube kubernetes.
+10. Wrote both deployment and service yaml file.
+11. Created deployment and service using "minikube kubectl apply" command.
+12. Now Service is accessible using service endpoints only.
+ 

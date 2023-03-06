@@ -1,7 +1,7 @@
 FROM openjdk:8
 
-EXPOSE 8100
+COPY target/DockerKubernetesAssignment-0.0.1-SNAPSHOT.jar .
 
-ADD target/DockerKubernetesAssignment-0.0.1-SNAPSHOT.jar DockerKubernetesAssignment-0.0.1-SNAPSHOT.jar
+EXPOSE 8100
 
 ENTRYPOINT ["java", "-jar", "DockerKubernetesAssignment-0.0.1-SNAPSHOT.jar"]
