@@ -12,7 +12,7 @@ spec:
         app: docker-kubernetes-deployment
     spec:
       containers:
-      - name: docker-kubernetes-deployment
-        image: tarunkumar04/docker-kubernetes-app
-        ports:
-        - containerPort: 8100
+        - name: docker-kubernetes-deployment
+          image: tarunkumar04/docker-kubernetes-app
+          ports:
+            - containerPort: 8100
