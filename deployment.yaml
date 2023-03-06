@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: DockerKubernetesDeployment
-        image: tarunkumar04/demoservice:latest
+        image: tarunkumar04/docker-kubernetes-app
         ports:
         - containerPort: 8100
